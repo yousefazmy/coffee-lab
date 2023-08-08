@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 15px;
+    background-color: 	#6F4E37;
+    color: black;
+    font-family: 'Roboto';
+}
+header{
+    min-height: 100dvh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) 
+    ,url(../image/backgroundheader.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.par-header{
+    height: 30px;
+    margin-top: 20px;
+    color: bisque;
+}
+.main-nav , .footer-na , .social-na{
+    list-style: none;
+    display: flex;
+}
+.main-nav li , .footer-na li , .social-na li {
+    padding: 0px 15px;
+}
+.main-nav li a, .footer-na li a  , .social-na li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.main-nav li a:hover , .footer-na li a:hover  , .social-na li a:hover{
+    text-decoration: underline;
+}
+.hero-box{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px orange;
+    margin-right: 15px;
+    padding: 10px 20px;
+    color: orange;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+.sec1 h2{
+    margin-top: 30px;
+    text-align: center;
+    color: black;  
+}
+.sec1 hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px orange;
+}
+.sec1 img{
+    width: 530px;
+    height: 330px;
+    margin-left: 100px;
+    opacity: 1;
+}
+.sec1 img:hover{
+    opacity: 0.5;
+}
+.sec1 p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+.sec2 h2{
+    margin-top: 30px;
+    text-align: center;
+    color: black; 
+}
+.sec2 hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px orange;
+}
+.sec-imag{
+    min-height: 100dvh;
+    min-width: 100vh;
+    width: 1160px;
+    margin-left: 175px;
+
+    background-image: 
+    url(../image/menu2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.cities h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.cities hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px orange;
+}
+
+.city img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.city h3 {
+    margin-bottom: 10px;
+}
+.city p{
+    margin-bottom: 10px;
+}
+.city i {
+    margin-right: 10px;
+    color: orange;
+}
+#contact h2{
+    margin-top: 30px;
+    text-align: center;
+}
+#contact hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px orange;
+}
+form{
+    margin-top: 50px;
+}
+label{
+    font-size: large;
+    margin-bottom: 10px;
+}
+input[type=text],
+input[type=email],
+select,textarea
+{
+    width: 100%;
+    padding: 7px;
+    border: solid #ccc 1px;
+    border-radius: 2.5px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+input[type=checkbox]{
+    margin-bottom: 10px;
+}
+button{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: solid blue 1px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: black;
+    color: orange;
+}
+.meal{
+    margin-top: 30px;
+}
+.meal img{
+    width: 682px;
+    height: 450px;
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.meal{
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+footer{
+    padding: 20px 0px;
+    background-color: black;
+
+}
+footer p{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
